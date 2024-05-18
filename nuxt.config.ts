@@ -4,7 +4,10 @@ export default defineNuxtConfig({
 
   app: {
     baseURL: '/menu_web/',
-    buildAssetsDir: 'assets'
+    buildAssetsDir: 'assets',
+    head: {
+      title: 'Kantina Marmakas - Flavors Journey'
+    }
   },
 
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],

@@ -5,7 +5,7 @@
 </template>
 <style>
 body {
-  background-color: #BACD92;
+  @apply bg-primary;
   font-family: 'Open Sans', sans-serif;
 }
 </style>
