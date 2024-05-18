@@ -17,12 +17,11 @@
   max-width: 52rem;
   margin-left: auto;
   margin-right: auto;
-  z-index: 0;
   
-  &::after {
+  &::before {
     content: '';
-    z-index: 1;
     position: absolute;
+    z-index: -1;
     right: 0.5rem;
     top: 0.5rem;
     left: 0.5rem;
