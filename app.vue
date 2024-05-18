@@ -5,6 +5,7 @@
 </template>
 <style>
 body {
-  background-color: #E5DDC5;
+  background-color: #BACD92;
+  font-family: 'Open Sans', sans-serif;
 }
 </style>

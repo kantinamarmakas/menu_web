@@ -20,5 +20,15 @@ export const menuItemsEn: Category[] = [
         price: 3
       }
     ]
+  },
+  {
+    name: 'Main Courses',
+    products: [
+      {
+        name: 'Portion Pork Souvlaki',
+        description: 'Portion of three delicious pork souvlaki served with french fries',
+        price: 8
+      }
+    ]
   }
 ] 

@@ -1,7 +1,7 @@
 <template>
-  <div class="base-layout p-5 flex flex-col">
+  <div class="base-layout p-6 flex flex-col overflow-hidden">
     <Header />
-    <main>
+    <main class="my-6">
       <slot />
     </main>
     <Footer class="mt-auto" />
@@ -20,14 +20,13 @@
   
   &::before {
     content: '';
+    @apply bg-white;
     position: absolute;
     z-index: -1;
-    right: 0.5rem;
-    top: 0.5rem;
-    left: 0.5rem;
-    bottom: 0.5rem;
-    border: 2px solid #BACD92;
-    border-radius: 1rem;
+    right: 0.4rem;
+    top: 0;
+    left: 0.4rem;
+    bottom: 0rem;
   }
 }
 </style>
