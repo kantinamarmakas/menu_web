@@ -4,6 +4,7 @@ export default defineNuxtConfig({
 
     app: {
 		baseURL: '/menu_web/',
+    buildAssetsDir: 'assets'
 	},
 
     modules: ["@nuxtjs/tailwindcss"]
