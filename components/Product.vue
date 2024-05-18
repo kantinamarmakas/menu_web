@@ -1,10 +1,10 @@
 <template>
   <div class="product flex justify-between items-center gap-8 my-3">
-    <div>
+    <div class="text-left">
       <h4 class="text-xl" v-text="name"/>
-      <p v-text="description"/>
+      <p class="italic" v-text="description"/>
     </div>
-    <p v-text="price"/>
+    <p class="flex-shrink-0" v-text="price + ' €'"/>
   </div>
 </template>
 <script setup lang="ts">
