@@ -1,6 +1,6 @@
 import type { Category } from "./types/types";
 
-export const menuItems: Category[] = [
+export const menuItemsEn: Category[] = [
   {
     name: 'Starters',
     products: [
@@ -13,7 +13,11 @@ export const menuItems: Category[] = [
         name: 'Saganaki',
         description: 'Pan-fried Greek cheese, golden and crispy on the outside, gooey and delicious on the inside. Served with a squeeze of lemon for a tangy finish.',
         price: 4.5
-
+      },
+      {
+        name: 'Fava',
+        description: 'A smooth and savory blend of yellow split peas, olive oil, lemon, and herbs. Topped with red onions and capers. Perfect with pita or as a side.',
+        price: 3
       }
     ]
   }

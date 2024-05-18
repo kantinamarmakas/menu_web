@@ -1,6 +1,6 @@
 <template>
   <div class="my-6 text-center max-w-[500px] mx-auto">
-    <h3 class="text-2xl text-center" v-text="name" />
+    <h3 class="text-xl tracking-wide italic text-center" v-text="name.toUpperCase()" />
     <slot />
   </div>
 
