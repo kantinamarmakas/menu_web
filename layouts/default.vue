@@ -4,6 +4,7 @@
     <main class="my-6">
       <slot />
     </main>
+    <hr class="mb-6"/>
     <Footer class="mt-auto" />
   </div>
 </template>
