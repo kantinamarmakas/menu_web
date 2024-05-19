@@ -1,5 +1,5 @@
 <template>
-  <div class="base-layout p-6 flex flex-col overflow-hidden">
+  <div class="base-layout relative max-layout p-6 flex flex-col overflow-hidden">
     <Header />
     <main class="my-6">
       <slot />
@@ -14,9 +14,6 @@
 .base-layout {
   min-height: 100vh;
   position: relative;
-  max-width: 52rem;
-  margin-left: auto;
-  margin-right: auto;
   
   &::before {
     content: '';
@@ -24,9 +21,9 @@
     position: absolute;
     z-index: -1;
     right: 0.4rem;
-    top: 0;
+    top: 0.4rem;
     left: 0.4rem;
-    bottom: 0rem;
+    bottom: 0.4rem;
   }
 }
 </style>

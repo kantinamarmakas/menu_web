@@ -10,7 +10,12 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts"],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
+    '@vueuse/nuxt',
+    'nuxt-icon'
+  ],
   googleFonts: {
     families: {
       'Open+Sans': true,
