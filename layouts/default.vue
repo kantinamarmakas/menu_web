@@ -21,10 +21,11 @@
     @apply bg-white;
     position: absolute;
     z-index: -1;
-    right: 0.4rem;
-    top: 0.4rem;
-    left: 0.4rem;
-    bottom: 0.4rem;
+    right: 0.5rem;
+    top: 0.5rem;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    border-radius: 0.5rem;
   }
 }
 </style>
