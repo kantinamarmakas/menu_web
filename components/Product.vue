@@ -3,7 +3,7 @@
     <div class="text-left">
       <div>
         <h4 class="text-xl inline italic font-primary text-primary font-medium" v-text="name"/>
-        <Icon v-if="vegan" name="iconoir:vegan-circle" class="text-green-600 ml-2" />
+        <Icon v-if="vegan" name="lucide:vegan" class="text-green-600 inline-block mb-[3px] ml-2" />
       </div>
       <p v-if="description" class="text-gray-600 text-[14px] sm:text-[16px]" v-text="description"/>
     </div>
