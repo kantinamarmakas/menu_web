@@ -1,8 +1,14 @@
 <template>
-	<NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <Html :lang="getLocale">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </Html>
 </template>
+<script lang="ts" setup>
+const { isLocaleSet, setLocaleToSet , setLocale, getLocale } = useLang();
+
+</script>
 <style>
 body {
   @apply bg-primary;

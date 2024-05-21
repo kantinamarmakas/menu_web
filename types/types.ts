@@ -14,3 +14,5 @@ export type Category = {
   name: string;
   products: Product[];
 }
+
+export type Locales = 'en_US' | 'el_GR' | 'it_IT';
