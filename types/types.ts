@@ -6,6 +6,8 @@ export type Product = {
   image?: string;
   ingredients?: string[]
   vegan?: boolean;
+  frozen?: boolean;
+  seafood?: boolean;
 }
 
 export type Category = {
