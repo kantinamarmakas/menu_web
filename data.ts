@@ -161,7 +161,7 @@ export const menuItemsGr: Category[] = [
         price: 8
       },
       {
-        name: 'Ελληνική σαλάτα με παξιμάδι χαρουπιού και κρίταμο',
+        name: 'Ελληνική σαλάτα με ντάκο και κρίταμο',
         price: 8.5
       },
       {
@@ -351,3 +351,119 @@ export const menuItemsIt: Category[] = [
   }
 ];
 
+export const menuItemsDe: Category[] = [
+  {
+    name: 'Vorspeisen',
+    products: [
+      {
+        name: 'Feta',
+        description: 'Griechischer Feta-Käse von lokalen Bauern aus Kefalonia.',
+        price: 3.5
+      },
+      {
+        name: 'Oliven',
+        description: 'Biologische Oliven von unseren Bäumen.',
+        price: 3,
+        vegan: true
+      },
+      {
+        name: 'Frisch frittierte Kartoffeln',
+        description: 'Hergestellt aus den besten Kartoffeln, heiß, knusprig und lecker.',
+        price: 4,
+        vegan: true
+      },
+      {
+        name: 'Tzatziki',
+        description: 'Eine cremige Mischung aus Joghurt, Gurke, Knoblauch und Kräutern. Perfekt als Dip oder Sauce.',
+        price: 4
+      },
+      {
+        name: 'Fava',
+        description: 'Ein glatter und cremiger Dip aus gelben Spalterbsen, vermischt mit Olivenöl und Zitrone. Perfekt gewürzt und lecker.',
+        price: 5,
+        vegan: true
+      },
+      {
+        name: 'Hummus',
+        description: 'Cremiges Hummus, eine glatte Mischung aus Kichererbsen, Tahini, Zitrone und Paprika.',
+        price: 4,
+        vegan: true
+      },
+      {
+        name: 'Falafel mit Joghurtsauce',
+        description: 'Knusprige Falafel serviert mit einer würzigen, cremigen Joghurtsauce.',
+        price: 8
+      },
+      {
+        name: 'Griechischer Salat mit Johannisbrotzwieback und Queller',
+        price: 8.5
+      },
+      {
+        name: 'Marinierte Sardellen',
+        price: 7,
+        description: 'Sorgfältig zubereitet und mit einer Mischung aus Kräutern durchzogen. Voller Geschmack und perfekt für Liebhaber von Meeresfrüchten.',
+        seafood: true
+      }
+    ]
+  },
+  {
+    name: 'Hauptgerichte',
+    products: [
+      {
+        name: 'Portion Schweine-Souvlaki',
+        description: '3 Stück mit Pommes frites, Tzatziki und Tomate.',
+        price: 9
+      },
+      {
+        name: 'Portion Schweinewürste',
+        description: '2 Stück mit Pommes frites, Senf, Mayonnaise und Ketchup.',
+        price: 8.5
+      },
+      {
+        name: 'Traditionelles Savoro',
+        description: 'Gebratene Dorade mit Knoblauch, Rosinen, Rosmarin, Olivenöl und Essig.',
+        price: 15,
+        seafood: true
+      },
+      {
+        name: 'Gegrillte Dorade',
+        description: 'Gegrillt auf natürlicher Holzkohle und serviert mit Tabouleh-Salat.',
+        price: 13,
+        seafood: true
+      },
+      {
+        name: 'Gegrillte Sardinen',
+        description: 'Gegrillt auf natürlicher Holzkohle und serviert mit Tabouleh-Salat.',
+        price: 9,
+        seafood: true
+      },
+      {
+        name: 'Gegrillte Garnelen',
+        description: 'Gegrillt auf natürlicher Holzkohle und serviert mit Tabouleh-Salat.',
+        price: 12,
+        seafood: true,
+        frozen: true
+      },
+      {
+        name: 'Garnelen Saganaki',
+        description: 'Garnelen, gekocht mit frischer Tomatensauce, Paprika, Knoblauch, Basilikum, Käse und Ouzo.',
+        price: 12,
+        seafood: true,
+        frozen: true
+      },
+      {
+        name: 'Frittierte Kalamari',
+        description: 'Panierte und frittierte Kalamari mit drei Arten von Senfsauce.',
+        price: 10,
+        seafood: true,
+        frozen: true
+      },
+      {
+        name: 'Gemista',
+        description: 'Gefülltes Gemüse mit Bulgur, Rosinen, frischer Tomatensauce, Basilikum und Kreuzkümmel.',
+        price: 8,
+        vegan: true
+      }
+    ]
+  }
+]

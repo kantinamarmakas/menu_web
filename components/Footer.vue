@@ -13,6 +13,7 @@
         <option value="en_US">🇺🇸 English</option>
         <option value="el_GR">🇬🇷 Ελληνικά</option>
         <option value="it_IT">🇮🇹 Italiano</option>
+        <option value="de_DE">🇩🇪 Deutsch</option>
       </select>
     </div>
   </footer>

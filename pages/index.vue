@@ -5,7 +5,7 @@
 </template>
 <script lang="ts" setup>
 import type { Category, Locales } from '@/types/types';
-import { menuItemsEn, menuItemsGr, menuItemsIt }  from '../data';
+import { menuItemsEn, menuItemsGr, menuItemsIt, menuItemsDe }  from '../data';
 
 definePageMeta({
   layout: 'default',
@@ -14,6 +14,7 @@ const localeMap :Record<Locales, Category[]> = {
   'en_US': menuItemsEn,
   'el_GR': menuItemsGr,
   'it_IT': menuItemsIt,
+  'de_DE': menuItemsDe,
 }
 
 const { getLocale } = useLang();
