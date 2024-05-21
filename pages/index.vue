@@ -1,5 +1,5 @@
 <template>
-  <CategoryContainer v-for="{ name, products } in getItems" :key="name" :name>
+  <CategoryContainer v-for="{ name, products } in getItems" :key="name + getLocale" :name>
     <Product v-for="product in products" :key="product.name" v-bind="product"/>
   </CategoryContainer>
 </template>
@@ -10,7 +10,6 @@ import { menuItemsEn, menuItemsGr, menuItemsIt }  from '../data';
 definePageMeta({
   layout: 'default',
 })
-
 const localeMap :Record<Locales, Category[]> = {
   'en_US': menuItemsEn,
   'el_GR': menuItemsGr,
@@ -19,5 +18,7 @@ const localeMap :Record<Locales, Category[]> = {
 
 const { getLocale } = useLang();
 
-const getItems = computed(() => localeMap[getLocale.value])
+const getItems = computed(() => {
+  return localeMap[getLocale.value];
+})
 </script>

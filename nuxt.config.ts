@@ -21,5 +21,12 @@ export default defineNuxtConfig({
       'Open+Sans': true,
       Montserrat: [400, 700],
     }
+  },
+  nitro: {
+    routeRules: {
+      '/': {
+         ssr: false,
+      }
+    }
   }
 });
