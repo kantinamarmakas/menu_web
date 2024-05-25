@@ -1,25 +1,8 @@
 <template>
-  <CategoryContainer v-for="{ name, products } in getItems" :key="name + getLocale" :name>
-    <Product v-for="product in products" :key="product.name" v-bind="product"/>
-  </CategoryContainer>
+	<StoryblokComponent v-if="story" :blok="story.content" />
 </template>
-<script lang="ts" setup>
-import type { Category, Locales } from '@/types/types';
-import { menuItemsEn, menuItemsGr, menuItemsIt, menuItemsDe }  from '../data';
 
-definePageMeta({
-  layout: 'default',
-})
-const localeMap :Record<Locales, Category[]> = {
-  'en_US': menuItemsEn,
-  'el_GR': menuItemsGr,
-  'it_IT': menuItemsIt,
-  'de_DE': menuItemsDe,
-}
-
+<script setup>
 const { getLocale } = useLang();
-
-const getItems = computed(() => {
-  return localeMap[getLocale.value];
-})
+const story = await useAsyncStoryblok('home', { version: 'draft', language: getLocale.value });
 </script>
