@@ -3,6 +3,6 @@
 </template>
 
 <script setup>
-const { getLocale } = useLang();
-const story = await useAsyncStoryblok('home', { version: 'published', language: getLocale.value });
+const { getStoryblokLang } = useLang();
+const story = await useAsyncStoryblok('home', { version: 'published', language: getStoryblokLang.value });
 </script>
