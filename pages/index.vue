@@ -4,5 +4,5 @@
 
 <script setup>
 const { getLocale } = useLang();
-const story = await useAsyncStoryblok('home', { version: 'draft', language: getLocale.value });
+const story = await useAsyncStoryblok('home', { version: 'published', language: getLocale.value });
 </script>
