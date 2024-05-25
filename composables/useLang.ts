@@ -8,9 +8,9 @@ export const useLang = () => {
 
 	const languageMap: Record<Locales, string> = {
 		en_US: 'default',
-		el_GR: 'el-GR',
-		de_DE: 'de-DE',
-		it_IT: 'it-IT',
+		el_GR: 'el_GR',
+		de_DE: 'de_DE',
+		it_IT: 'it_IT',
 	};
 
 	const setLocale = (lang: Locales) => {

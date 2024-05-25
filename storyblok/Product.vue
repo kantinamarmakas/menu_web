@@ -25,6 +25,5 @@
 	</div>
 </template>
 <script setup lang="ts">
-import type { Product } from '@/types/types';
 defineProps({ blok: Object });
 </script>
