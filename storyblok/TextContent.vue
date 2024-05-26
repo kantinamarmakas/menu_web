@@ -1,7 +1,7 @@
 <template>
 	<div v-editable="blok" class="w-full">
 		<p
-			class="text-xl inline italic font-primary text-primary font-medium mb-1"
+			class="text-xl italic font-primary text-primary font-medium mb-1"
 			:class="_titleAlignment"
 			v-text="blok?.title"
 		/>
