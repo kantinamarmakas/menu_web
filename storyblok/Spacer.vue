@@ -1,5 +1,5 @@
 <template>
-	<component :is="resolvedComponent" :class="{ 'mb-6': blok?.bottom, 'mt-6': blok?.top }" />
+	<component v-editable="blok" :is="resolvedComponent" :class="{ 'mb-6': blok?.bottom, 'mt-6': blok?.top }" />
 </template>
 <script setup lang="ts">
 const props = defineProps({ blok: Object });
