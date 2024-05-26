@@ -1,5 +1,5 @@
 <template>
-	<div v-editable="blok">
+	<div v-editable="blok" class="w-full">
 		<p
 			class="text-xl inline italic font-primary text-primary font-medium mb-1"
 			:class="_titleAlignment"
@@ -14,7 +14,7 @@ const props = defineProps({
 		type: Object,
 	},
 });
-
+// text-left text-right
 const _titleAlignment = computed(() => props.blok?.titleAlignment ?? 'text-center');
 const _bodyAlignment = computed(() => props.blok?.bodyAlignment ?? 'text-center');
 </script>

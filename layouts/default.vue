@@ -1,7 +1,7 @@
 <template>
 	<div class="base-layout relative max-layout p-6 flex flex-col overflow-hidden">
 		<Header />
-		<main class="my-6">
+		<main class="my-6 max-w-[570px] mx-auto">
 			<slot />
 		</main>
 	</div>
