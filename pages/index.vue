@@ -5,7 +5,12 @@
 <script setup>
 const { getStoryblokLang } = useLang();
 
-const story = await useAsyncStoryblok('home', { version: 'published', language: getStoryblokLang.value });
+const isPreview = useRoute().query?.preview === 'true';
+
+const story = await useAsyncStoryblok('home', {
+	version: isPreview ? 'draft' : 'published',
+	language: getStoryblokLang.value,
+});
 watch(getStoryblokLang, async () => {
 	location.reload();
 });

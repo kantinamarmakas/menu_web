@@ -1,7 +1,7 @@
 <template>
 	<footer v-editable="blok" class="flex flex-col items-center font-primary">
 		<StoryblokComponent v-for="blk in blok?.links" :key="blk?._uid" :blok="blk" />
-		<div class="flex items-center">
+		<div class="flex items-center mt-2">
 			<select v-model="lang" class="p-2 text-sm">
 				<option value="en_US">🇺🇸 English</option>
 				<option value="el_GR">🇬🇷 Ελληνικά</option>

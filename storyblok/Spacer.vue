@@ -1,6 +1,7 @@
 <template>
-	<hr :class="{ 'mb-6': blok?.bottom, 'mt-6': blok?.top }" />
+	<component :is="resolvedComponent" :class="{ 'mb-6': blok?.bottom, 'mt-6': blok?.top }" />
 </template>
 <script setup lang="ts">
-defineProps({ blok: Object });
+const props = defineProps({ blok: Object });
+const resolvedComponent = computed(() => (props.blok?.horizontal ? 'hr' : 'div'));
 </script>
