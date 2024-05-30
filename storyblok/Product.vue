@@ -1,5 +1,9 @@
 <template>
-	<div v-editable="blok" class="product flex justify-between items-center gap-8 my-3 sm:my-4">
+	<div
+		v-editable="blok"
+		v-if="blok?.active"
+		class="product flex justify-between items-center gap-8 my-3 sm:my-4"
+	>
 		<div class="text-left">
 			<div>
 				<h4 class="text-xl inline italic font-primary text-primary font-medium" v-text="blok?.name" />
