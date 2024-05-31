@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 		baseURL: '/menu_web/',
 		buildAssetsDir: 'assets',
 		head: {
-			title: 'Kantina Marmakas - Flavors Journey',
+			title: 'Kantina Marmakas - Flavours Journey',
 		},
 	},
 
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
 	googleFonts: {
 		families: {
 			'Open+Sans': true,
-			Montserrat: [400, 700],
+			Raleway: [400, 500, 600, 700],
 		},
 	},
 	nitro: {
