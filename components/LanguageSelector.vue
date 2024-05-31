@@ -1,6 +1,6 @@
 <template>
-	<div class="flex items-center">
-		<select v-model="lang" class="p-2 text-md">
+	<div class="inline-flex ml-auto items-center">
+		<select v-model="lang" class="px-2 py-1 text-md border border-secondary rounded-md">
 			<option value="el_GR">🇬🇷 Ελληνικά</option>
 			<option value="en_US">🇺🇸 English</option>
 			<!-- <option value="it_IT">🇮🇹 Italiano</option>

@@ -1,7 +1,9 @@
 <template>
 	<div class="base-layout relative max-layout p-6 flex flex-col overflow-hidden">
 		<Header />
-		<LanguageSelector class="mx-auto max-w-[570px]" />
+		<div class="mx-auto mt-8 max-w-[570px] w-full text-right">
+			<LanguageSelector />
+		</div>
 		<main class="my-6 mx-auto max-w-[570px]">
 			<slot />
 		</main>
