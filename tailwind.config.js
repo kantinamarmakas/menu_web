@@ -7,7 +7,7 @@ export default {
 				primary: '#4F6F52',
 			},
 			fontFamily: {
-				primary: 'Raleway, sans-serif',
+				primary: 'Inter, sans-serif',
 				secondary: 'Open Sans, sans-serif',
 			},
 		},

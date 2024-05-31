@@ -23,7 +23,7 @@
 		</div>
 		<p
 			v-if="blok?.price"
-			class="flex-shrink-0 text-primary font-primary text-[16px]"
+			class="flex-shrink-0 text-primary font-primary text-[17px]"
 			v-text="blok?.price + ' €'"
 		/>
 	</div>

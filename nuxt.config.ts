@@ -7,6 +7,7 @@ export default defineNuxtConfig({
 		buildAssetsDir: 'assets',
 		head: {
 			title: 'Kantina Marmakas - Flavours Journey',
+			link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png?v3' }],
 		},
 	},
 
@@ -27,8 +28,8 @@ export default defineNuxtConfig({
 	],
 	googleFonts: {
 		families: {
-			'Open+Sans': true,
-			Raleway: [400, 500, 600, 700],
+			'Open+Sans': [400, 500, 600, 700],
+			Inter: [400, 500, 600, 700],
 		},
 	},
 	nitro: {
